@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React from 'react';
 import {
   StyleSheet,
@@ -58,14 +50,15 @@ const styles = StyleSheet.create({
   mainTextTitle: {
     color: '#fff',
     fontSize: 65,
-    fontFamily: 'sans-serif-medium',
+    fontFamily: 'SweetSansProMedium',
   },
   mainTextDesc: {
     color: '#fff',
     fontSize: 20,
-    fontFamily: 'sans-serif-medium',
-    width: '35%',
+    fontFamily: 'SweetSansProMedium',
+    width: '40%',
     marginBottom: 40,
+    textAlign: 'center',
   },
   mainBtn: {
     backgroundColor: '#8147de',
@@ -76,7 +69,7 @@ const styles = StyleSheet.create({
   mainBtnText: {
     color: '#fff',
     fontSize: 18,
-    fontFamily: 'sans-serif-medium',
+    fontFamily: 'SweetSansProMedium',
   },
 });
 
